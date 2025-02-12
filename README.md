@@ -42,9 +42,6 @@ streamlit run app.py
  ┗ 📄 Demo_Image.png   # Demo Screenshot
 ```
 
-## 🙌 Acknowledgment  
-Thanks to **Innomatics Research Labs** for their guidance and support in building this project.  
-
 ## Acknowledgments 🎓
 A special thanks to **Innomatics Research Labs** for their support and mentorship throughout this project! 🙌
 
