@@ -9,7 +9,7 @@ An AI-driven Python Code Reviewer built with **Streamlit** and **Google's Gemini
 - 🎨 **User-Friendly Interface** – Built with Streamlit for an interactive experience.
 
 ## Demo 📸
-![Demo Screenshot](demo_screenshot.png)
+![Demo Screenshot]([demo_screenshot.png](https://github.com/saidivya-14/AI-code-reviewer/blob/main/Demo_Image.png))
 
 ## Installation & Usage 🛠️
 ### 1️⃣ Clone the Repository
@@ -38,9 +38,6 @@ streamlit run app.py
 
 ## Acknowledgments 🎓
 A special thanks to **Innomatics Research Labs** for their support and mentorship throughout this project! 🙌
-
-## Contributing 🤝
-Want to improve this project? Feel free to fork, make changes, and submit a PR!
 
 ## License 📜
 This project is licensed under the MIT License.
