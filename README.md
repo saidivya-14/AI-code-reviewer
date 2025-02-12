@@ -36,7 +36,7 @@ streamlit run app.py
 ## 🐂 Repository Structure  
 ```
 💎 AI-code-reviewer
- ┣ 📄 app.py           # Main Streamlit app
+ ┣ 📄 ai_code_reviewer.py  # Main Streamlit app
  ┣ 📄 requirements.txt # Dependencies
  ┣ 📄 README.md        # Project Documentation
  ┗ 📄 Demo_Image.png   # Demo Screenshot
