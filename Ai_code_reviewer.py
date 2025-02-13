@@ -1,18 +1,22 @@
-
 import streamlit as st
 import google.generativeai as ai
 
+# Load API Key securely
+api_key = st.secrets["GOOGLE_API_KEY"]
 
-system_prompt = """You are an AI-powered Python Code Reviewer.
-Your primary role is to analyze submitted Python code, identify potential bugs, suggest improvements,
- and provide optimized and corrected code snippets."""
-
-api_key = st.secrets["AIzaSyAVMS7VfIcpm_B6d-SYWiU_GVwjbdj3HB8"]
+# Configure API key
 ai.configure(api_key=api_key)
 
-model = ai.GenerativeModel(model_name="models/gemini-1.5-flash",system_instruction = system_prompt)
+# Define system prompt
+system_prompt = """You are an AI-powered Python Code Reviewer.
+Your primary role is to analyze submitted Python code, identify potential bugs, 
+suggest improvements, and provide optimized and corrected code snippets."""
 
-st.title(":speech_balloon: An AI Code Reviewer")
+# Load Gemini model
+model = ai.GenerativeModel(model_name="gemini-1.5-flash", system_instruction=system_prompt)
+
+# Streamlit UI
+st.title(":speech_balloon: AI Code Reviewer")
 query = st.text_area("Enter Your Python code Here...")
 btn_click = st.button("Generate")
 
